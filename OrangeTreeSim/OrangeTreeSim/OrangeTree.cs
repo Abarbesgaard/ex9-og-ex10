@@ -20,8 +20,7 @@ namespace OrangeTreeSim
             return age;
         }
         public int GetAge()
-        {
-            
+        {            
             return age; 
         }
         public int SetHeight(int height)
@@ -52,42 +51,45 @@ namespace OrangeTreeSim
         }
         public void OneYearPasses()
         {
-
+            treeAlive = true;
             //ligger 1 til alder
             age++;
-            // Træet højde øges med 2, hvis træets alder er under 80, ellers ikke (height-feltet)
-            //Træet er i live, hvis træets alder er under 80, ellers dødt (treeAlive)
-            if (age > 80) 
-            {
-                height += 2;
-                treeAlive = true;
-            }
-            else
-            {
-                treeAlive= false;
-                numOranges = 0;
+            
 
-            }
-            /*Træet giver ikke frugt første år, men derefter øges dets produktion med 5 appelsiner for hvert år
-             * (dvs. 5 appelsiner 2. år, 10 appelsiner det 3. år, 15 appelsiner det 4. år osv.)
-              Frugt fra forrige år føres ikke med over til et nyt år (numOranges-feltet)*/
-            if (age == 1)
+            // Træet højde øges med 2, hvis træets alder er under 80, ellers ikke (height-feltet)         
+            height += 2;
+
+            //Træet er i live, hvis træets alder er under 80, ellers dødt (treeAlive)
+            if (treeAlive == true)
             {
-                numOranges = 0;
+                if (age < 80)
+                {
+                   
+                    numOranges = (age * 5) - 5;
+                }
+
+                else if ( age >= 80)
+                {
+                    treeAlive = false;
+                    numOranges += 0;
+                    
+                }
             }
-            else
-            {
-                numOranges = (age * 5) - 5;
-            }
-            
+
+
+            //denne kalder EatOranges() som holder styr på hvor mange appelsiner der er blevet spist
             EatOrange(numOranges);
-            
+
         }
 
         public int EatOrange(int count)
         {
-            count = 0;
-            return count;
+            //denne operation simulerer, at der spises det antal appelsiner, der er angivet i count-parameteren
+            //fra årets høst, hvis der altså er så mange appelsiner tilbage på træet (orangesEaten-feltet)
+            
+                return count;
+
+            
         }
     }
 }
