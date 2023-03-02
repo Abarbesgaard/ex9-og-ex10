@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\45217\\Desktop\\Datamatiker\\ex9\\OrangeTreeSim\\OrangeTreeSim\\OrangeTreeSim.csproj",
+      "projectUniqueName": "C:\\Users\\45217\\Desktop\\Datamatiker\\ex9 & ex10\\OrangeTreeSim\\OrangeTreeSim\\OrangeTreeSim.csproj",
       "projectName": "OrangeTreeSim",
-      "projectPath": "C:\\Users\\45217\\Desktop\\Datamatiker\\ex9\\OrangeTreeSim\\OrangeTreeSim\\OrangeTreeSim.csproj",
+      "projectPath": "C:\\Users\\45217\\Desktop\\Datamatiker\\ex9 & ex10\\OrangeTreeSim\\OrangeTreeSim\\OrangeTreeSim.csproj",
       "packagesPath": "C:\\Users\\45217\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\45217\\Desktop\\Datamatiker\\ex9\\OrangeTreeSim\\OrangeTreeSim\\obj\\",
+      "outputPath": "C:\\Users\\45217\\Desktop\\Datamatiker\\ex9 & ex10\\OrangeTreeSim\\OrangeTreeSim\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\45217\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

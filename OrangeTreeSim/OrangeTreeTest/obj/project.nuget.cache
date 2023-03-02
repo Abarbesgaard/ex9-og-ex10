@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l/BtoJ2zxl0tGDueJJhLBtCGDFxqYRLNO+Y/KWK5G9vZ54eJUhmFuj91beANTLcHjfZxzGklmEDu68jxHSYcuQ==",
+  "dgSpecHash": "fHX8trXWxTbGm7RZ3uwj8cWrheJd5eV3LBNnq7zBuLlNIqlR7d8V7x9+114NmFv5PNBHuhnjW1yV8pdfQfmfOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\45217\\Desktop\\Datamatiker\\ex9\\OrangeTreeSim\\OrangeTreeTest\\OrangeTreeTest.csproj",
+  "projectFilePath": "C:\\Users\\45217\\Desktop\\Datamatiker\\ex9 & ex10\\OrangeTreeSim\\OrangeTreeTest\\OrangeTreeTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\45217\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\45217\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
