@@ -21,7 +21,7 @@ namespace OrangeTreeSim
                     this.age = 0;
             }
         }
-        
+
         private int height;
         public int Height
         {
@@ -88,8 +88,8 @@ namespace OrangeTreeSim
         //}
         public void OneYearPasses()
         {
-            treeAlive = true;           
-            age++;                                  
+           treeAlive = true;           
+           age++;                                  
            if (age < 80)
            {                  
                numOranges = (age * 5) - 5;
@@ -103,8 +103,6 @@ namespace OrangeTreeSim
            }
            orangesEaten = 0;
         }
-
-
         public void EatOrange(int count)
         {
             //denne operation simulerer, at der spises det antal appelsiner, der er angivet i count-parameteren
